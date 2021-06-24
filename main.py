@@ -27,7 +27,7 @@ async def callmsg(message):
 
 async def tomato(message):
     embed = discord.Embed(title="The TOMATO", description="당신은 감염되었습니다", color=0xf15f5f)
-    embed.set_footer(text='당신은 감염되었습니다. 당신의 상태 메시지를 "저한테 DM으로 "Tomato"라고 말해보세요"로 바꾸세요. 토마토 바이러스는 천천히 퍼질 것입니다.단 하나의 규칙은 토마토를 말하는 이들을 위해서 게임을 스포일러해서는 안 됩니다')
+    embed.set_footer(text='당신의 상태 메시지를 "저한테 DM으로 "Tomato"라고 말해보세요"로 바꾸세요. 토마토 바이러스는 천천히 퍼질 것입니다. 단 하나의 규칙은 토마토를 말하는 이들을 위해서 게임을 스포일러해서는 안 됩니다.')
 
     await message.send(embed=embed)
 
